@@ -2,7 +2,7 @@
     <h2 class="text-center text-4xl">My <span class="text-red-500">projects</span></h2>
     <ul class="my-3 mx-6 flex flex-wrap justify-center gap-5">
         {% for project in site.data.projects %}
-        <div class="bg-linear-to-b from-gray-900 transition duration-150 hover:to-gray-800 to-gray-800 sm:to-gray-900 w-xs p-3 rounded-lg">
+        <div class="bg-linear-to-b from-gray-900 transition duration-150 hover:to-gray-800 to-gray-800 sm:to-gray-900 w-9/10 max-w-xs p-3 rounded-lg">
             <div class="flex justify-between items-center h-10">
                 <a href="{{ project.link }}" target="_blank"><h3 class="text-2xl text-red-500"> {{ project.name }} </h3></a>
                 {% if project.github %}
