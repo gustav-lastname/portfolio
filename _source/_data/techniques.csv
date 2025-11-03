@@ -1,8 +1,8 @@
-name,icon,link
-HTML,icons/HTML5.svg,https://html.spec.whatwg.org/
-CSS,icons/CSS3.svg,https://www.w3.org/Style/CSS/Overview.en.html
-JS,icons/JS.svg,https://developer.mozilla.org/en-US/docs/Web/JavaScript
-Tailwind,icons/tailwind.svg,https://tailwindcss.com/
-Jekyll,icons/jekyll.svg,https://jekyllrb.com/
-Supabase,icons/supabase.svg,https://supabase.com/database
-Express,icons/express.svg,https://expressjs.com/
+name,icon,link,source
+HTML,icons/HTML5.svg,https://html.spec.whatwg.org/,https://www.svgrepo.com/svg/373669/html
+CSS,icons/CSS3.svg,https://www.w3.org/Style/CSS/Overview.en.html,https://www.svgrepo.com/svg/373535/css
+JS,icons/JS.svg,https://developer.mozilla.org/en-US/docs/Web/JavaScript,"https://www.svgrepo.com/svg/303206/javascript-logo, Logo License"
+Tailwind,icons/tailwind.svg,https://tailwindcss.com/,https://tailwindcss.com/brand
+Jekyll,icons/jekyll.png,https://jekyllrb.com/,https://github.com/jekyll/brand
+Supabase,icons/supabase.svg,https://supabase.com/database,https://supabase.com/brand-assets
+Express,icons/express.svg,https://expressjs.com/,https://expressjs.com/en/resources/community.html
