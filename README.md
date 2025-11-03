@@ -1,10 +1,39 @@
-# Simpel portfolio page for Gustav Holmberg
+# Simple portfolio page for Gustav Holmberg
 
 This is a portfolio page for me (Gustav Holmberg)
 
 ## Technologies
 
 This page uses jekyll for page building and tailwind for styling. 
+
+### Jekyll  
+
+To develop the page you have to install jekyll. To install jekyll follow the guide [here](https://jekyllrb.com/docs/installation/).  
+
+To preview the page while you work run the `serve` command in the root of the project with the `l` option (live-reload).  
+```
+jekyll serve -l
+```
+
+To build the page run the `build` command in the root of the project. 
+```
+jekyll build
+```
+
+### Tailwind 
+
+To develop the page you have to install tailwind. To install tailwind follow the guide [here](https://tailwindcss.com/docs/installation/tailwind-cli/) (You have to install node.js)
+
+Run tailwind with the following command in the root of the project:
+```
+npx @tailwindcss/cli -i _source/input.css -o _source/output.css --watch
+```
+
+Before publishing, minify the css. 
+```
+npx tailwindcss -o _source/output.css --minify
+```
+
 ## Licenses 
 All icons from [svgrepo](https://svgrepo.com) are under a MIT license unless mentioned otherwise. 
 
