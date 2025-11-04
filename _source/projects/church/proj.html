@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projektion i Missionskyrkan</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <h1>Projektion i Uppsala missionskyrka</h1>
+        <div class="centered">
+            <a href="index.html">
+                <div class=menu-item>Hem</div>
+            </a>
+            <a href="ljud.html">
+                <div class=menu-item>Ljud</div>
+            </a>
+            <a href="proj.html">
+                <div class=menu-item>Projektor</div>
+            </a>
+            
+        </div>
+        
+    </div>
+
+    <div id="sidenav">
+        <div id="close-button" onclick="closeNav()">&times;</div>
+        <a href="#1.0">Översikt</a> <br>
+        <a href="#2.0">Projektionsduken</a> <br>
+        <a href="#3.0">Projektor på/av</a> <br>
+        
+        <a href="#footer">Kontakt</a> <br>
+        
+    </div>
+
+    <div id="sidenav-button" onclick="openNav()">&#9776;</div>
+    
+    <div id="main">
+        <h2 id="1.0">Översikt</h2>
+        <p>
+            Kyrksalens projektionssystem består av en projektor, en trådlös sändare och en projektionsduk. Kyrksalen har också mörkläggningsgardiner 
+            som jag tar med på den här sidan. All lös utrustning är inlåst i det lilla skåpet till vänster om mixerbordspulpeten.
+        </p>
+        <img src="img/proj/skapsdorr.jpg" width="493" height="571">
+
+        <h2 id="2.0">Projektionsduken</h2>
+        
+        <img src="img/proj/storlekar.jpg" width="738" height="384">
+        <p>
+            Det finns en projektionsduk som kan hissas ner längst fram i kyrksalen. Den brukar dock inte användas eftersom det går väldigt bra att 
+            projecera direkt på väggen och att man kan ha större bilder. För att få ner projektionsduken används dess fjärrkontroll som finns i det 
+            lilla skåpet till vänster om mixerbordspulpeten. 
+        </p>
+
+        <img src="img/proj/dukfjarr.jpg" width="151" height="372">
+        <p>
+            Tryck på neråtpilen för att rulla ut duken och tryck på uppåtpilen för att rulla in duken. Duken stannar automatiskt när den är helt in- 
+            och utrullad men om du vill stanna den i ett annat läge trycker du på mittenknappen. 
+        </p>
+
+        <h2 id="3.0">Sätta på och stänga av projektorn</h2>
+        <p>
+            Projektorn styrs med sin fjärrkontroll som är i det lilla skåpet till vänster om mixerbordspulpeten. För att sätta på projektorn trycker 
+            man på "POWER ON" knappen. Projektorn är väldigt känslig för riktning av fjärrkontrollen. Det fungerar bäst om man står framför projektorn 
+            och siktar mot linsen på framsidan av projektorn. 
+        </p>
+        <p>
+            För att stänga av projektorn trycker man på "STANDBY". Då dyker det upp ett fönster i projektionsbilden där man ska bekräfta att man vill 
+            stänga av projektorn. Navigera till rätt alternativ med pilarna och tryck "ENTER". 
+        </p>
+    </div>
+
+    <div id="footer">
+        <div class="centered">
+            <div class="col">
+                <p class="bold">Pastor: </p>
+                <p>Torbjörn Bådagård<br>
+                <a href="mailto:torbjorn.badagard@uppsalamissionskyrka.se">torbjorn.badagard@&ZeroWidthSpace;uppsalamissionskyrka.se</a></p>
+                <p>Kyrkans hemsida: <br>
+                <a href="https://uppsalamissionskyrka.se" target="_blank">uppsalamissionskyrka.se</a></p>
+            </div>
+            <div class="col">
+                <span class="bold">Konferenstekniker:</span>
+                <p>Pelle Ståhl <br>
+                <a href="mailto:pelle.stahl@uppsalamissionskyrka.se">pelle.stahl@&ZeroWidthSpace;uppsalamissionskyrka.se</a></p>
+                <p>Martin Ålund <br>
+                <a href="mailto:martin.alund@uppsalamissionskyrka.se">martin.alund@&ZeroWidthSpace;uppsalamissionskyrka.se</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const navButton = document.getElementById("sidenav-button")
+        function openNav(){
+            document.getElementById("sidenav").style.left = "0";
+            navButton.style.left = "220px";
+            navButton.setAttribute("onclick", "closeNav()");
+        }
+
+        function closeNav(){
+            document.getElementById("sidenav").style.left = "-252px";
+            navButton.style.left = "-30px";
+            navButton.setAttribute("onclick", "openNav()");
+        }
+    </script>
+</body>
+</html>
