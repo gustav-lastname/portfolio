@@ -7,14 +7,14 @@
     <link href="/output.css" rel="stylesheet">
     <link href="/img/favicon.svg" rel="icon">
 </head>
-<body class="grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white font-[Funnel_Sans]">
-    <header class="flex justify-start p-3 bg-black sm:justify-center">
+<body class="grid grid-rows-[auto_1fr_auto] min-h-screen text-white font-[Funnel_Sans] bg-gradient-to-r from-black xl:from-gray-900 via-black to-black xl:to-gray-900 transition duration-300">
+    <header class="flex justify-start p-3 sm:justify-center">
         <h1 class="text-3xl text-red-500 w-3/4 sm:w-lg"><img src="img/logo.svg" alt="Holmberg"></h1>
     </header>
     <main class="max-w-sm sm:max-w-6xl mx-auto">
         {{ content }}
     </main>
-    <footer class="bg-indigo-950 sm:bg-black sm:hover:bg-indigo-950 transition duration-300 text-center p-3 mt-3">
+    <footer class="text-center p-3 mt-3">
         © 2025 Gustav Holmberg
     </footer>
 </body>
