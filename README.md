@@ -29,11 +29,6 @@ Run tailwind with the following command in the root of the project:
 npx @tailwindcss/cli -i _source/input.css -o _source/output.css --watch
 ```
 
-Before publishing, minify the css. 
-```
-npx tailwindcss -o _source/output.css --minify
-```
-
 ## Licenses 
 All icons from [svgrepo](https://svgrepo.com) are under an MIT license unless mentioned otherwise. 
 
