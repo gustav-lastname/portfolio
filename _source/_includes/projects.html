@@ -16,6 +16,7 @@
                 {% if project.techniques contains technique.name %}
                 <li>
                     <a href="{{ technique.link }}" target="_blank"><img class="h-10"src="{{ technique.icon }}"></a>
+                    <!-- svg source: {{ technique.source }} -->
                 </li>
                 {% endif %}
                 {% endfor %}
