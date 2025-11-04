@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
     <link href="/output.css" rel="stylesheet">
+    <link href="/img/favicon.svg" rel="icon">
 </head>
 <body class="grid grid-rows-[auto_1fr_auto] min-h-screen bg-black text-white">
-    <header class="flex justify-start p-3 bg-black sm:justify-center hover:bg-red-950 transition duration-300">
-        <h1 class="text-4xl sm:text-6xl">Gustav Holmberg</h1>
+    <header class="flex justify-start p-3 bg-black sm:justify-center">
+        <h1 class="text-3xl text-red-500 w-3/4 sm:w-lg"><img src="img/loggo.svg" alt="Holmberg"></h1>
     </header>
     <main class="max-w-sm sm:max-w-6xl mx-auto">
         {{ content }}
