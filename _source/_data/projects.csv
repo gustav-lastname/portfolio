@@ -1,4 +1,4 @@
 name,description,link,github,img,techniques
 My portfolio page, Portfolio page built on jekyll and tailwind.,https://gustav-holmberg.pages.dev,https://github.com/gustav-lastname/portfolio,img/projects/portfolio.jpg,HTML Tailwind Jekyll
 AV system reference, Reference page for AV system in a church.,https://gustav-holmberg.pages.dev/projects/church,,img/projects/AV.jpg,HTML CSS JS
-Florist page, Database driven florist page with home built template system.,https://delikat.ntig.dev/products_english.html,https://github.com/NTIG-Uppsala/Delikat-Flora,img/projects/florist.jpg,HTML CSS JS Supabase Express Node Python
+Florist page, Database driven florist page with home built template system.,https://delikat.ntig.dev/products_english.html,https://github.com/NTIG-Uppsala/Delikat-Flora,img/projects/florist.jpg,HTML CSS JS Supabase Express Node Python Selenium
