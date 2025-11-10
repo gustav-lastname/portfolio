@@ -1,8 +1,20 @@
-name,icon,link,source
-HTML,icons/HTML5.svg,https://html.spec.whatwg.org/,https://www.svgrepo.com/svg/373669/html
-CSS,icons/CSS3.svg,https://www.w3.org/Style/CSS/Overview.en.html,https://www.svgrepo.com/svg/373535/css
-JS,icons/JS.svg,https://developer.mozilla.org/en-US/docs/Web/JavaScript,"https://www.svgrepo.com/svg/303206/javascript-logo, Logo License"
-Tailwind,icons/tailwind.svg,https://tailwindcss.com/,https://tailwindcss.com/brand
-Jekyll,icons/jekyll.png,https://jekyllrb.com/,https://github.com/jekyll/brand
-Supabase,icons/supabase.svg,https://supabase.com/database,https://supabase.com/brand-assets
-Express,icons/express.svg,https://expressjs.com/,https://expressjs.com/en/resources/community.html
+key,name,icon,link,source,category
+HTML,HTML,icons/HTML5.svg,https://html.spec.whatwg.org/,https://www.svgrepo.com/svg/373669/html,Programming Languages
+CSS,CSS,icons/CSS3.svg,https://www.w3.org/Style/CSS/Overview.en.html,https://www.svgrepo.com/svg/373535/css,Programming Languages
+JS,JavaScript,icons/JS.svg,https://developer.mozilla.org/en-US/docs/Web/JavaScript,"https://www.svgrepo.com/svg/303206/javascript-logo, Logo License",Programming Languages
+TS,TypeScript,icons/TS.svg,https://www.typescriptlang.org/,https://www.typescriptlang.org/branding/,Programming Languages
+Python,Python,icons/python.svg,https://www.python.org,https://www.svgrepo.com/svg/374016/python,Programming Languages
+Lua,Lua,icons/lua.svg,https://lua.org,https://www.svgrepo.com/svg/373817/lua,Programming Languages
+C#,C Sharp,icons/csharp.svg,https://dotnet.microsoft.com/en-us/languages/csharp,https://www.svgrepo.com/svg/452184/csharp,Programming Languages
+Git,Git,icons/git.svg,https://git-scm.com,https://git-scm.com/community/logos,Tools
+Jekyll,Jekyll,icons/jekyll.png,https://jekyllrb.com/,https://github.com/jekyll/brand,Tools
+Tailwind,Tailwind,icons/tailwind.svg,https://tailwindcss.com/,https://tailwindcss.com/brand,Tools
+arduino,Arduino,icons/arduino.svg,https://arduino.cc,https://www.arduino.cc/en/trademark/,Tools
+gsa,Service Accounts,icons/gcloud.svg,https://docs.cloud.google.com/iam/docs/service-account-overview,"https://www.svgrepo.com/svg/353805/google-cloud, Logo License",Tools
+Supabase,Supabase,icons/supabase.svg,https://supabase.com/database,https://supabase.com/brand-assets,Database and Backend
+Node,Node.js,icons/node.svg,https://nodejs.org/en,https://nodejs.org/en/about/branding,Database and Backend
+Express,Express.js,icons/express.svg,https://expressjs.com/,https://expressjs.com/en/resources/community.html,Database and Backend
+RPi,Raspbian,icons/raspberrypi.svg,https://www.raspberrypi.com/,"https://www.svgrepo.com/svg/303239/raspberry-pi-logo, Logo License",Operating Systems
+Debian,Debian,icons/debian.svg,https://debian.org,https://www.debian.org/logos/index.en.html,Operating Systems
+Scrum,Scrum,icons/scrum.svg,https://en.wikipedia.org/wiki/Scrum_(software_development),https://www.svgrepo.com/svg/443400/brand-scrum,Frameworks
+Selenium,Selenium,icons/selenium.svg,https://www.selenium.dev/,"https://www.svgrepo.com/svg/354321/selenium, Logo License",Frameworks

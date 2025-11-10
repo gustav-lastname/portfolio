@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <!-- Generator: Adobe Illustrator 29.7.1, SVG Export Plug-In . SVG Version: 2.1.1 Build 8)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #e7363c;
+        font-family: IBMPlexMono-Regular, 'IBM Plex Mono';
+        font-size: 327.21px;
+      }
+
+      .st1 {
+        fill: #1d1d1b;
+      }
+    </style>
+  </defs>
+  <circle class="st1" cx="250" cy="250" r="250"/>
+  <g>
+    <text class="st0" transform="translate(80.73 331.64)"><tspan x="0" y="0">}</tspan></text>
+    <text class="st0" transform="translate(222.94 331.64)"><tspan x="0" y="0">{</tspan></text>
+  </g>
+</svg>

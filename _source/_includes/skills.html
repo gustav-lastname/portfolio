@@ -1,0 +1,20 @@
+<div class="my-10 mx-6">
+    <h2 class="text-center text-4xl pb-2">Tools and skills</h2>
+    <div class="my-3 flex flex-wrap justify-center gap-5">
+        {% for category in site.data.categories %}
+        <div class="bg-gray-900 w-9/10 max-w-xs p-3 rounded-lg flex justify-between flex-col h-fit">
+            <h3 class="text-2xl text-red-500 text-center"> {{ category.name }} </h3>
+            <ul class="flex flex-wrap gap-3 mt-2">
+                {% for technique in site.data.techniques %}
+                {% if category.name == technique.category %}
+                <li class="">
+                    <a class="flex items-center text-lg bg-red-900/60 pr-2 p-1 rounded-xl" href="{{ technique.link }}" target="_blank"><img class="h-10"src="{{ technique.icon }}">{{ technique.name }}</a>
+                    <!-- svg source: {{ technique.source }} -->
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</div>
