@@ -12,6 +12,7 @@ Tailwind,Tailwind,icons/tailwind.svg,https://tailwindcss.com/,https://tailwindcs
 arduino,Arduino,icons/arduino.svg,https://arduino.cc,https://www.arduino.cc/en/trademark/,Tools
 gsa,Service Accounts,icons/gcloud.svg,https://docs.cloud.google.com/iam/docs/service-account-overview,"https://www.svgrepo.com/svg/353805/google-cloud, Logo License",Tools
 Supabase,Supabase,icons/supabase.svg,https://supabase.com/database,https://supabase.com/brand-assets,Database and Backend
+SQLite,SQLite,icons/sqlite.svg,https://sqlite.org/,https://www.svgrepo.com/svg/374094/sqlite,Database and Backend
 Node,Node.js,icons/node.svg,https://nodejs.org/en,https://nodejs.org/en/about/branding,Database and Backend
 Express,Express.js,icons/express.svg,https://expressjs.com/,https://expressjs.com/en/resources/community.html,Database and Backend
 RPi,Raspbian,icons/raspberrypi.svg,https://www.raspberrypi.com/,"https://www.svgrepo.com/svg/303239/raspberry-pi-logo, Logo License",Operating Systems
