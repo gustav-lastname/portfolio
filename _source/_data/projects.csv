@@ -3,3 +3,4 @@ My portfolio page, Portfolio page built on jekyll and tailwind.,https://gustav-h
 AV system reference, Reference page for AV system in a church.,https://gustav-holmberg.pages.dev/projects/church,,img/projects/AV.jpg,HTML CSS JS
 Florist page, Database driven florist page with home built template system.,https://delikat.ntig.dev/products_english.html,https://github.com/NTIG-Uppsala/Delikat-Flora,img/projects/florist.jpg,HTML CSS JS Supabase Express Node Python Selenium
 Tag validation system, Raspberry Pi based tag validation system with automatic online updates.,https://github.com/NTIG-Uppsala/lunchpad-py,https://github.com/NTIG-Uppsala/lunchpad-py,img/projects/lunchpad.jpg,Python gsa RPi
+Point of sale system, WPF Point of sale system with receipt creation and SQLite database.,https://github.com/NTIG-Uppsala/NTIPOS,https://github.com/NTIG-Uppsala/NTIPOS,img/projects/POS.jpg,C# SQLite Debian
